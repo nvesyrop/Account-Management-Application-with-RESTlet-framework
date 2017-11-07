@@ -19,7 +19,7 @@ public class MailClient {
 		String list = mailAccounts.represent(); 
 		System.out.println(list == null ? "<Άδεια λίστα>\n" : list); 
 		System.out.println("2) Πρόσθεση νέων χρηστών\n"); 
-		mailAccounts.add("Χρήστος Γεωργιάδης"); 
+		mailAccounts.add("Γεώργιος Γεωργιάδης"); 
 		mailAccounts.add("Νικόλαος Παπαδόπουλος"); 
 		mailAccounts.add("Αναστασία Παπαδοπούλου"); 
 		mailAccounts.add("Μαρία Γεωργίου"); 
